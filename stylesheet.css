@@ -301,7 +301,6 @@ label {
   color: #2b546a;
   font-weight: bold;
 }
-
  
 
 button{
@@ -410,6 +409,10 @@ background:#eee;
   font-size: 4rem;
   color: #AAA;
   z-index: -1;
+}
+
+input #navToggle{
+  display:none;
 }
 
 /*==768px以下の形状*/
@@ -632,8 +635,11 @@ width:100%;
 }
 
 .scrolldown4 {
+  position: absolute;
+  bottom: 30%;
   right: initial;
   right: 10%;
+  animation: arrowmove 1s ease-in-out infinite;
 
 }
 
@@ -716,6 +722,4 @@ li {
   margin-bottom: 50px;
   background-color: #f0f8ff;
 }
-  
-
 }
