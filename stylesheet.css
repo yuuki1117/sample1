@@ -631,20 +631,11 @@ width:100%;
 }
 
 .scrolldown4 {
-  position: absolute;
-  bottom: 30%;
   right: initial;
   right: 10%;
-  animation: arrowmove 1s ease-in-out infinite;
 
 }
 
-nav {
-  display: flex;
-    justify-content: center;
-    height: 75px;
-    align-items: center;
-}
 
 
 }
